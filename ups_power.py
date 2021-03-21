@@ -51,6 +51,16 @@ UPS_LIST = [
         'host': 'columbia',
         'device': 'bl50t',
     },
+    {
+        'name': 'desktop',
+        'host': 'rasp-meter-3',
+        'device': 'bw55t',
+    },
+    {
+        'name': 'server-2',
+        'host': 'rasp-meter-6',
+        'device': 'bw55t',
+    },
 ]
 
 for ups in UPS_LIST:
