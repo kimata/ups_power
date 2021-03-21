@@ -35,7 +35,9 @@ def get_ups_power(ups_status, ups_rated_power):
     return power_rate * ups_rated_power[ups_status['VAR']] / 100.0
 
 UPS_RATED_POWER = {
-    'bl50t': 500,
+    'bl50t': 450,
+    'by50s': 300,
+    'bw55t': 340,
 }
 
 UPS_LIST = [
